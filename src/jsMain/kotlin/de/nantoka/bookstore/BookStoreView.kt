@@ -3,10 +3,15 @@ package de.nantoka.bookstore
 import org.w3c.dom.HTMLDivElement
 import kotlin.browser.document
 
-class BookStoreView(private val presenter: BookStoreContract.Presenter) : BookStoreContract.View {
+actual class BookStoreView actual constructor(presenter: BookStoreContract.Presenter) : BookStoreContract.View {
 
     private val loader = document.getElementById("loader") as HTMLDivElement
     private val content = document.getElementById("content") as HTMLDivElement
+
+    private val presenter: BookStoreContract.Presenter
+    init {
+        this.presenter = presenter
+    }
 
     override fun showBooks(books: List<Book>) {
         books.forEach {
