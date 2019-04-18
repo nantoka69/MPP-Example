@@ -3,12 +3,12 @@ package de.nantoka.bookstore
 import org.w3c.xhr.XMLHttpRequest
 
 actual object BookStoreModel {
-    actual val API_URL = js("getApiUrl()") as String
+    actual var API_URL = js("getApiUrl()") as String
 
-    actual fun getBooksAsync(url: String, callback: (Array<Book>) -> Unit) {
+    actual fun getBooksAsync(callback: (Array<Book>) -> Unit) {
         val xmlHttp = XMLHttpRequest()
 
-        xmlHttp.open("GET", url)
+        xmlHttp.open("GET", API_URL)
 
         xmlHttp.onload = {
 

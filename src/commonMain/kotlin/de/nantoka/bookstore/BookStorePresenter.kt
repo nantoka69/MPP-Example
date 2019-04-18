@@ -12,7 +12,7 @@ class BookStorePresenter : BookStoreContract.Presenter {
 
         view.showLoader()
 
-        BookStoreModel.getBooksAsync(BookStoreModel.API_URL) { books ->
+        BookStoreModel.getBooksAsync() { books ->
 
             view.hideLoader()
 
