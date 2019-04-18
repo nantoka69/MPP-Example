@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="MPP-Example-jvm-0.0.1">
+    <output-path>C:\Users\Joerg\IdeaProjects\MPP-Example\build\libs</output-path>
+    <root id="archive" name="MPP-Example-jvm-0.0.1.jar">
+      <element id="module-output" name="MPP-Example_jvmMain" />
+    </root>
+  </artifact>
+</component>
