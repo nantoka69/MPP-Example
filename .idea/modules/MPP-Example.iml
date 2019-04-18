@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="FacetManager">
+    <facet type="android-gradle" name="Android-Gradle">
+      <configuration>
+        <option name="GRADLE_PROJECT_PATH" value=":" />
+      </configuration>
+    </facet>
+    <facet type="android" name="Android">
+      <configuration>
+        <option name="SELECTED_BUILD_VARIANT" value="debug" />
+        <option name="ASSEMBLE_TASK_NAME" value="assembleDebug" />
+        <option name="COMPILE_JAVA_TASK_NAME" value="compileDebugSources" />
+        <afterSyncTasks>
+          <task>generateDebugSources</task>
+        </afterSyncTasks>
+        <option name="ALLOW_USER_CONFIGURATION" value="false" />
+        <option name="MANIFEST_FILE_RELATIVE_PATH" value="/src/androidMain/AndroidManifest.xml" />
+        <option name="RES_FOLDER_RELATIVE_PATH" value="/src/androidMain/res" />
+        <option name="RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/../../src/androidMain/res" />
+        <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/src/androidMain/assets" />
+      </configuration>
+    </facet>
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="3" platform="JVM 1.8" useProjectSettings="false" isTestModule="false" externalProjectId="MPP-Example">
+        <sourceSets>
+          <sourceSet>MPP-Example_commonMain</sourceSet>
+        </sourceSets>
+        <newMppModelJpsModuleKind>COMPILATION_AND_SOURCE_SET_HOLDER</newMppModelJpsModuleKind>
+        <compilerSettings />
+        <compilerArguments>
+          <option name="destination" value="$MODULE_DIR$/../../build/tmp/kotlin-classes/debug" />
+          <option name="classpath" value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.3.30/bf0edcf669e446e0d903a0681190d1e3df969ac4/kotlin-stdlib-jdk7-1.3.30.jar;C:/Users/Joerg/.gradle/caches/transforms-2/files-2.1/fcfbea81372c1c7f81b4a90e951cfb69/jars/classes.jar;C:/Users/Joerg/.gradle/caches/transforms-2/files-2.1/55e3bf3acfd39152a86ad979b943f18b/jars/classes.jar;C:/Users/Joerg/.gradle/caches/transforms-2/files-2.1/eadf5592ae924c4c82ef3763f36b3bdd/jars/classes.jar;C:/Users/Joerg/.gradle/caches/transforms-2/files-2.1/ae470a76692969b08ceac51306553c05/jars/classes.jar;C:/Users/Joerg/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-android-extensions-runtime/1.3.30/80c54e4abd92342e1cf28b3aff009f9c741337c0/kotlin-android-extensions-runtime-1.3.30.jar;C:/Users/Joerg/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.30/9ea98e65c246d34de9af59c104ad9bdea4908ee/kotlin-stdlib-1.3.30.jar;C:/Users/Joerg/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.30/989a125fdb6e4d0d75a016032e03e1e3b57a13d/kotlin-stdlib-common-1.3.30.jar;C:/Users/Joerg/.gradle/caches/transforms-2/files-2.1/1e954307487593970f08fa659a136e51/jars/classes.jar;C:/Users/Joerg/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar;C:/Users/Joerg/.gradle/caches/transforms-2/files-2.1/d119da80f64ba6883709c0ddbd02aba5/jars/classes.jar;C:/Users/Joerg/.gradle/caches/transforms-2/files-2.1/15f0ad9afb38372ddf26226bb4683ff4/jars/classes.jar;C:/Users/Joerg/.gradle/caches/transforms-2/files-2.1/32742c3d8ac5d5c5f7c20044639f094e/jars/classes.jar;C:/Users/Joerg/.gradle/caches/transforms-2/files-2.1/9adcfbc20c36f7fcd14a2f111f2eadb5/jars/classes.jar;C:/Users/Joerg/.gradle/caches/transforms-2/files-2.1/1b607316e3c17634493f33b1ae9a6aba/jars/classes.jar;C:/Users/Joerg/.gradle/caches/transforms-2/files-2.1/e9d42b803c650b580d914e0d8997d717/jars/classes.jar;C:/Users/Joerg/.gradle/caches/transforms-2/files-2.1/26a3d4f5bcd3eab09e3e8d084d68fbe6/jars/classes.jar;C:/Users/Joerg/.gradle/caches/transforms-2/files-2.1/344de865757b600749bed1878f7ae140/jars/classes.jar;C:/Users/Joerg/.gradle/caches/transforms-2/files-2.1/ae2b26a84cdedbc013944080422984ed/jars/classes.jar;C:/Users/Joerg/.gradle/caches/transforms-2/files-2.1/798467d51050a2d11f497d3ebbf94bc0/jars/classes.jar;C:/Users/Joerg/.gradle/caches/transforms-2/files-2.1/9c533741a8e230b8c3e34b023095a731/jars/classes.jar;C:/Users/Joerg/.gradle/caches/transforms-2/files-2.1/673609df8c23b1f8a37072f8cd52f78c/jars/classes.jar;C:/Users/Joerg/.gradle/caches/transforms-2/files-2.1/24cb77a5a83e9786f07b94a96b4b52f1/jars/classes.jar;C:/Users/Joerg/.gradle/caches/transforms-2/files-2.1/860a9649d987dc72b3fd8a8a52c9906b/jars/classes.jar;C:/Users/Joerg/.gradle/caches/transforms-2/files-2.1/e4f6331b74295799814b0d3ef9a35fd6/jars/classes.jar;C:/Users/Joerg/.gradle/caches/transforms-2/files-2.1/de0838c7be4388328c68ce39ebb516d1/jars/classes.jar;C:/Users/Joerg/.gradle/caches/transforms-2/files-2.1/46399c049b9ff39e2bb4a21020b4e66b/jars/classes.jar;C:/Users/Joerg/.gradle/caches/transforms-2/files-2.1/89d0c7a0a3c57c5042faacfa571a25a6/jars/classes.jar;C:/Users/Joerg/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.0.0/42858b26cafdaa69b6149f45dfc2894007bc2c7a/collection-1.0.0.jar;C:/Users/Joerg/.gradle/caches/transforms-2/files-2.1/a6469f0250058da8f1cd96a84115dd78/jars/classes.jar;C:/Users/Joerg/.gradle/caches/transforms-2/files-2.1/a991c1b9f4246f65b96795820f9ea1e8/jars/classes.jar;C:/Users/Joerg/.gradle/caches/transforms-2/files-2.1/5bf8720da9927887ee82bc8ac28433bc/jars/classes.jar;C:/Users/Joerg/.gradle/caches/transforms-2/files-2.1/4318a9e79c89c694bd0d0fc9fab3dd71/jars/classes.jar;C:/Users/Joerg/.gradle/caches/modules-2/files-2.1/androidx.concurrent/concurrent-futures/1.0.0-alpha02/b4a4a1ada5a1ba3f8df9f9e6384a0a404ccc48cb/concurrent-futures-1.0.0-alpha02.jar;C:/Users/Joerg/.gradle/caches/transforms-2/files-2.1/a64757e060d5ddefc08af85ce2491950/jars/classes.jar;C:/Users/Joerg/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.1.0-alpha02/11d7b1518f8e1044319820cb2568fd2f59818b26/annotation-1.1.0-alpha02.jar;C:/Users/Joerg/.gradle/caches/modules-2/files-2.1/com.google.guava/listenablefuture/1.0/c949a840a6acbc5268d088e47b04177bf90b3cad/listenablefuture-1.0.jar;C:/Users/Joerg/.gradle/caches/transforms-2/files-2.1/e75ad04c617563c53c77e8ab454fed0a/jars/classes.jar;C:/Users/Joerg/.gradle/caches/transforms-2/files-2.1/46efdbba996c2bf543ef803d0322c1a6/jars/classes.jar;C:/Users/Joerg/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.0.0/e070ffae07452331bc5684734fce6831d531785c/lifecycle-common-2.0.0.jar;C:/Users/Joerg/.gradle/caches/transforms-2/files-2.1/5df2219bd59894a165b728a995f1b9d5/jars/classes.jar;C:/Users/Joerg/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.0.0/bb21b9a11761451b51624ac428d1f1bb5deeac38/core-common-2.0.0.jar;C:/Users/Joerg/.gradle/caches/transforms-2/files-2.1/e83202c6147e5232d6425247c6d0e1b6/jars/classes.jar;C:/Users/Joerg/.gradle/caches/modules-2/files-2.1/androidx.constraintlayout/constraintlayout-solver/1.1.2/d324137427d23f643b61a2ad1cb20df2b8b1eb97/constraintlayout-solver-1.1.2.jar;C:/Users/Joerg/AppData/Local/Android/sdk/platforms/android-28/android.jar;C:/Users/Joerg/AppData/Local/Android/sdk/build-tools/28.0.3/core-lambda-stubs.jar" />
+          <option name="noStdlib" value="true" />
+          <option name="noReflect" value="true" />
+          <option name="moduleName" value="MPP-Example_debug" />
+          <option name="jvmTarget" value="1.8" />
+          <option name="addCompilerBuiltIns" value="true" />
+          <option name="loadBuiltInsFromDependencies" value="true" />
+          <option name="languageVersion" value="1.3" />
+          <option name="apiVersion" value="1.3" />
+          <option name="pluginOptions">
+            <array>
+              <option value="plugin:org.jetbrains.kotlin.android:experimental=false" />
+              <option value="plugin:org.jetbrains.kotlin.android:enabled=true" />
+              <option value="plugin:org.jetbrains.kotlin.android:defaultCacheImplementation=hashMap" />
+            </array>
+          </option>
+          <option name="pluginClasspaths">
+            <array>
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-android-extensions/1.3.30/6c4efb38cdff0c5c302f8ad6ebb471940fcda4d7/kotlin-android-extensions-1.3.30.jar" />
+            </array>
+          </option>
+          <option name="multiPlatform" value="true" />
+          <option name="errors">
+            <ArgumentParseErrors />
+          </option>
+        </compilerArguments>
+      </configuration>
+    </facet>
+  </component>
+</module>

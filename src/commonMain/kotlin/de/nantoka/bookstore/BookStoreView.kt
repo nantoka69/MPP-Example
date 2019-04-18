@@ -1,3 +1,6 @@
 package de.nantoka.bookstore
 
-expect class BookStoreView(presenter: BookStoreContract.Presenter) : BookStoreContract.View
+expect class BookStoreView() : BookStoreContract.View{
+
+    var presenter: BookStoreContract.Presenter?
+}
