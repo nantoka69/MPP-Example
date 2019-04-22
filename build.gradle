@@ -99,4 +99,26 @@ kotlin {
             }
         }
     }
+
+    //see https://github.com/JetBrains/kotlin/blob/503f061c8c00c1b1a56148694ffbf54181b0e070/idea/idea-gradle/src/org/jetbrains/kotlin/idea/configuration/KotlinGradleWebMultiplatformModuleBuilder.kt#L289-L302
+    task populateWebFolder(dependsOn: [jsMainClasses]) {
+        doLast {
+            delete(files("${projectDir}/out/js"))
+            copy {
+                def jsCompilations = kotlin.targets.js.compilations
+                includeEmptyDirs = false
+                from jsCompilations.main.output
+                from kotlin.sourceSets.jsMain.resources.srcDirs
+                jsCompilations.test.runtimeDependencyFiles.each {
+                    if (it.exists() && !it.isDirectory()) {
+                        from zipTree(it.absolutePath).matching { include '*.js' }
+                    }
+                }
+                include "**/*.js"
+                exclude "**/*.meta.js"
+                exclude "**/*-test.js"
+                into "${projectDir}/out/js"
+            }
+        }
+    }
 }

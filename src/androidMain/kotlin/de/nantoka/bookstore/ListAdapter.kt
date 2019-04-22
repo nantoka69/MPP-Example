@@ -5,7 +5,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.nantoka.bookstore.R
 import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.book_card.view.*
 
