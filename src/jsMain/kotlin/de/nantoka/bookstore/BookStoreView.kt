@@ -8,8 +8,6 @@ actual class BookStoreView actual constructor() : BookStoreContract.View {
     private val loader = document.getElementById("loader") as HTMLDivElement
     private val content = document.getElementById("content") as HTMLDivElement
 
-    actual var presenter: BookStoreContract.Presenter? = null
-
     override fun showBooks(books: List<Book>) {
         books.forEach {
             val card = CardBuilder.build(it)
@@ -26,7 +24,7 @@ actual class BookStoreView actual constructor() : BookStoreContract.View {
     }
 
     fun show() {
-        presenter?.attach(this)
-        presenter?.loadBooks()
+        BookStorePresenter.attach(this)
+        BookStorePresenter.loadBooks()
     }
 }

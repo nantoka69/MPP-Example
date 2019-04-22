@@ -1,6 +1,6 @@
 package de.nantoka.bookstore
 
-class BookStorePresenter : BookStoreContract.Presenter {
+object BookStorePresenter : BookStoreContract.Presenter {
 
     private lateinit var view: BookStoreContract.View
 
