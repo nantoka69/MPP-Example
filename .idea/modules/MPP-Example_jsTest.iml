@@ -4,8 +4,8 @@
     <facet type="kotlin-language" name="Kotlin">
       <configuration version="3" platform="JavaScript " useProjectSettings="false" isTestModule="true" externalProjectId="MPP-Example">
         <sourceSets>
-          <sourceSet>MPP-Example_jsMain</sourceSet>
           <sourceSet>MPP-Example_commonTest</sourceSet>
+          <sourceSet>MPP-Example_jsMain</sourceSet>
           <sourceSet>MPP-Example_commonMain</sourceSet>
         </sourceSets>
         <newMppModelJpsModuleKind>COMPILATION_AND_SOURCE_SET_HOLDER</newMppModelJpsModuleKind>

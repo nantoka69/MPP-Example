@@ -1,16 +1,27 @@
 package de.nantoka.bookstore
 
-actual class BookStoreView actual constructor(presenter: BookStoreContract.Presenter) : BookStoreContract.View {
+actual class BookStoreView actual constructor() : BookStoreContract.View {
 
     override fun showBooks(books: List<Book>) {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+        for (book in books){
+            System.out.println("\n==========\n")
+            System.out.println("Title: ${book.title}")
+            System.out.println("Description: ${book.description}")
+            System.out.println("Price: ${book.price}")
+            System.out.println("Details: ${book.url}")
+        }
     }
 
     override fun showLoader() {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+        System.out.println("Fetching book list ...")
     }
 
     override fun hideLoader() {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+        System.out.println("Fetched.\n")
+    }
+
+    fun writeBookList(){
+        BookStorePresenter.attach(this)
+        BookStorePresenter.loadBooks()
     }
 }
